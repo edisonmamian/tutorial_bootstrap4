@@ -1,0 +1,29 @@
+/*Estilos bloque bienvenidos */
+html {
+  font-size: 15px;
+}
+
+.bienvenidos {
+  background: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.encabezado {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler-right {
+    font-size: 1.6rem !important;
+    color: #ffffff !important;
+}
