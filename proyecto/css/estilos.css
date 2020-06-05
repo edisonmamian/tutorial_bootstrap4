@@ -1,8 +1,8 @@
-/*Estilos bloque bienvenidos */
 html {
   font-size: 15px;
 }
 
+/*Estilos bloque bienvenidos */
 .bienvenidos {
   background: url("../images/fondo-bienvenidos.jpg");
   background-size: cover;
@@ -56,4 +56,10 @@ html {
 .btn-primary:hover {
   background-color: #f17f66;
   border-color: #f05f40;
+}
+
+/*Estilos bloque quienes somos */
+.quienes-somos {
+  background-color: #f05f40;
+  color: #ffffff;
 }
