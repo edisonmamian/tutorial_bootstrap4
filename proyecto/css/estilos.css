@@ -7,23 +7,53 @@ html {
   background: url("../images/fondo-bienvenidos.jpg");
   background-size: cover;
   height: 100vh;
+  overflow: hidden;
 }
 
-.encabezado {
-  background: rgba(0, 0, 0, 0.28);
+.fixed-top {
+  background: rgba(0, 0, 0, 0.60);
 }
 
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-brand {
   color: #ffffff;
   font-size: 1.3rem;
   text-transform: uppercase;
 }
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: #ffffff;
 }
 
-.navbar-light .navbar-toggler-right {
+.navbar-dark .navbar-toggler-right {
     font-size: 1.6rem !important;
-    color: #ffffff !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #f05f40 !important;
+}
+
+.active {
+  background-color: #f05f40;
+}
+
+.texto-bienvenidos {
+  color: #ffffff;
+  margin-top: 6rem;
+}
+
+.btn-primary {
+  background-color: #f05f40;
+  border-color: #b93e24;
+  transition: 0.5s ease;
+}
+
+.btn-primary:hover {
+  background-color: #f17f66;
+  border-color: #f05f40;
 }

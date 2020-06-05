@@ -20,19 +20,22 @@
   </head>
   <body >
     <section class="bienvenidos">
-      <header class="encabezado">
+      <div class="container ">
+        <header class="encabezado">
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <div class="container ">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
             <a class="navbar-brand" href="#!">Tutorial Bootstrap</a>
-            <button class="navbar-toggler navbar-toggler-right float-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon "></span>
             </button >
-
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-md-0 ">
                 <li class="nav-item active ">
+                  <a class="nav-link" href="#!">Inicio</a>
+                </li >
+                <li class="nav-item ">
                   <a class="nav-link" href="#!">Nosotros</a>
                 </li >
                 <li class="nav-item ">
@@ -46,10 +49,16 @@
                 </li >
               </ul >
             </div >
-          </div>
-        </nav>
 
-      </header>
+          </nav>
+        </header>
+
+        <div class="texto-bienvenidos text-center">
+          <p class="h5"> Bienvenidos al tutorial </p>
+          <h1 class="display-4 mb-5"> Encantados de conocerte </h1>
+          <a href="#" class="btn btn-primary btn-lg">Ponte en contacto </a>
+        </div>
+      </div>
     </section>
 
     <!--  Query first, then Popper.js, then Bootstrap JS -->
