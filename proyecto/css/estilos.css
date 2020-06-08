@@ -63,3 +63,9 @@ html {
   background-color: #f05f40;
   color: #ffffff;
 }
+
+/* Estilos bloque servicios */
+.servicos .row div .icon {
+  font-size: 5rem;
+  color: #f05f40;
+}
