@@ -69,3 +69,24 @@ html {
   font-size: 5rem;
   color: #f05f40;
 }
+
+
+/* Estilos bloque portafolio*/
+.portafolio {
+  background-color: #424141;
+  color: #ffffff;
+}
+
+.portafolio a {
+  display: block;
+  overflow: hidden;
+}
+
+.portafolio img {
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+.portafolio a:hover img {
+  transform: scale(1.5);
+}
